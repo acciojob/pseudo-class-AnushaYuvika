@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-/* #container {
+#container {
 	margin: 20px;
 	display: inline-block;
 }
@@ -18,29 +18,5 @@ p {
 	content: " After Element";
 	color: #f00;
 	font-size: 20px;
-} */
-
-/* your css code here. If applicable */
-/* your css code here. If applicable */
-#container {
-  margin: 20px;
 }
 
-/* main text inline so before/content/after stay on one line */
-#container p {
-  display: inline;
-  margin: 0;
-}
-
-/* pseudo-elements */
-#container::before {
-  content: "Before Element ";
-  color: #f00;
-  font-size: 20px;
-}
-
-#container::after {
-  content: " After Element";
-  color: #f00;
-  font-size: 20px;
-}
