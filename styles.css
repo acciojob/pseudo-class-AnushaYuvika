@@ -13,5 +13,5 @@
 
 #container::after {
     content: "After Element"; 
-    color: blue; 
+    color: red; 
 }
